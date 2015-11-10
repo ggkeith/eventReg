@@ -11,7 +11,18 @@ eventsApp.controller("EventController",
         city: "Plano",
         state: "TX"
       },
-      imageUrl: "img/angularjs-logo.png"
+      imageUrl: "img/angularjs-logo.png",
+      sessions: [
+        {
+          name: "Directives Masterclass"
+        },
+        {
+          name: "Scopes for fun and profit"
+        },
+        {
+          name: "Well Behaved Controllers"
+        }
+      ]
     }
   }
 );
