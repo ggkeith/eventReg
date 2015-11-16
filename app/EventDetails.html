@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app="eventsApp">
+<html ng-app="eventsApp">
 
 <head>
   <meta charset="UTF-8">
@@ -18,7 +18,7 @@
     <nav class="navbar navbar-default">
     </nav>
 
-    <div ng-controller="EventController" style="padding-left: 20px; padding-right: 20px">
+    <div ng-controller="EventController as event" style="padding-left: 20px; padding-right: 20px">
       <img ng-src="{{event.imageUrl}}" alt="{{event.name}}"/>
       <div class="row">
         <div class="col-md-4">
@@ -41,7 +41,7 @@
 
       <hr/>
 
-      
+
     </div>
   </div>
 
